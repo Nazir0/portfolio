@@ -5,7 +5,7 @@ Single page portfolio made with [Astro](https://astro.build/) and based on [Mini
 
 ## Clone:
 ```
-git clone https://github.com/slydragonn/minimalist-dragon.git
+git clone https://github.com/Nazir0/portfolio.git
 ```
 
 ## Install:
