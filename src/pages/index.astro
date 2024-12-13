@@ -8,14 +8,14 @@ import SkillCard from "../components/SkillCard.astro";
 import Title from "../components/Title.astro";
 ---
 
-<Layout title="Minimalist Dragon | Portfolio">
+<Layout title="Mouhamed Nazir Mbow | Portfolio">
 	<header><Navbar /></header>
 		<main>
 			<section class="about">
 				<img src='dragon.png' alt='profile picture'/>
 				<article>
-					<p>Hi!, I'm Alejandro Londono</p>
-					<Title text='Software Developer'/>
+					<p>Hi! I'm Mouhamed Nazir Mbow</p>
+					<Title text='Software Engineer | DevOps Enthusiast'/>
 				</article>
 				<Button message='Latest Posts' icon='/external-link.svg' link='#'/>
 			</section>
@@ -23,19 +23,24 @@ import Title from "../components/Title.astro";
 				<Title text='Skills & Technologies'/>
 				<section>
 					<SkillCard 
-						title='Frontend Development'
-						description='Developing websites with JavaScript, React, and Astro'
-						icon='/design.svg'
+						title='Programming Languages'
+						description='Proficient in Python, Java, C, JavaScript (React, Vue, Ember), and SQL.'
+						icon='/code.svg'
 					/>
 					<SkillCard 
-						title='Backend Development'
-						description=' Developing APIs with JavaScript and Python'
+						title='DevOps'
+						description='Experience with Docker, GitLab CI, Ansible, Terraform, Kubernetes, and Grafana.'
 						icon='/server.svg'
 					/>
 					<SkillCard 
-						title='Databases'
-						description='Databases like PostgreSQL and MongoDB.'
-						icon='/database.svg'
+						title='Full-Stack Development'
+						description='Built scalable web apps with Django, SpringBoot, React, and Vue.'
+						icon='/design.svg'
+					/>
+					<SkillCard 
+						title='Networking & Infrastructure'
+						description='Knowledge in Distributed Systems, Infrastructure Management, and Security.'
+						icon='/network.svg'
 					/>
 				</section>
 			</section>
@@ -43,26 +48,25 @@ import Title from "../components/Title.astro";
 				<Title text='My Work'/>
 				<section>
 					<ProjectCard 
-					title='My Project #1'
-					description='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-					link='#'
-					/>
-					<ProjectCard 
-						title='My Project #2'
-						description='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+						title='Event Planning App'
+						description='A full-stack app for creating and managing event invitations using Django and VueJS.'
 						link='#'
 					/>
 					<ProjectCard 
-						title='My Project #3'
-						description='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+						title='Low Latency File Transfer System'
+						description='Engineered a high-speed UDP-based file transfer program achieving 70 Mbps.'
+						link='#'
+					/>
+					<ProjectCard 
+						title='Blogger Website'
+						description='Collaborated on a React-based website for a musician blogger.'
 						link='#'
 					/>
 				</section>
-				
 			</section>
 			<section class="contact">
 				<Title text='Tell me about your next project'/>
-				<Button message='Send Message' icon='/email.svg' link='mailto:example@example.com'/>
+				<Button message='Send Message' icon='/email.svg' link='mailto:mbownazir@gmail.com'/>
 			</section>
 		</main>
 		<Footer />
